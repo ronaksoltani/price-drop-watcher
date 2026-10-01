@@ -1,0 +1,15 @@
+{
+  "products": [
+    {
+      "id": "sample-headphones",
+      "url": "https://shop.example/products/headphones",
+      "title_selector": "h1",
+      "price_selector": "[itemprop='price']",
+      "price_attribute": "content",
+      "image_selector": "meta[property='og:image']",
+      "image_attribute": "content",
+      "target_price": "79.99",
+      "currency": "USD"
+    }
+  ]
+}
